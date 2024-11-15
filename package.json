@@ -1,7 +1,7 @@
 {
   "name": "predict-next-random",
   "description": "Predicts the next number in a sequence of Math.random() numbers",
-  "version": "0.0.9",
+  "version": "1.0.0",
   "main": "dist/index.js",
   "module": "dist/index.js",
   "exports": {
