@@ -1,0 +1,8 @@
+<script src="../dist/index.global.js"></script>
+<script>
+    predictNextRandom().then(result => {
+        console.log(Math.random(), result);
+    }).catch(err => {
+        console.error('Error:', err);
+    });
+</script>

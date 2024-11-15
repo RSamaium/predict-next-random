@@ -1,0 +1,34 @@
+{
+  "name": "predict-next-random",
+  "description": "Predicts the next number in a sequence of Math.random() numbers",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "scripts": {
+    "build": "tsup"
+  },
+  "keywords": [
+    "random",
+    "predict",
+    "next",
+    "number"
+  ],
+  "author": "Samuel Ronce",
+  "license": "MIT",
+  "dependencies": {
+    "tsx": "^4.19.2",
+    "z3-solver": "^4.13.3"
+  },
+  "type": "module",
+  "devDependencies": {
+    "tsup": "^8.3.5",
+    "typescript": "^5.6.3"
+  }
+}
