@@ -29,18 +29,18 @@ import predictNextRandom from 'predict-next-random';
 
 // Using default sequence (automatically generates 5 random numbers)
 const prediction = await predictNextRandom();
-console.log('Next random number will be:', prediction);
+console.log('Next random number will be:', prediction, Math.random());
 
 // Using custom sequence (must be 5 consecutive Math.random() numbers)
 const customSequence = [
-    0.7242371475558931,
-    0.3586243644569792,
-    0.4281750074487711,
-    0.9687851683730692,
-    0.2347827331634612
+  0.1537274509826705,
+  0.2825553692132683,
+  0.730500319996316,
+  0.2035670016395259,
+  0.13580711831105652
 ];
 const customPrediction = await predictNextRandom(customSequence);
-console.log('Next random number will be:', customPrediction);
+console.log('Next random number will be:', customPrediction); // 0.4663416602317585
 ```
 
 ### Requirements
